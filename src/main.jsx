@@ -11,6 +11,8 @@ import Calculate_House from './pages/Calculate_House.jsx'
 import Result from './pages/Result.jsx'
 import Result_House from './pages/Result_House.jsx'
 
+
+
 const router = createBrowserRouter(
   createRoutesFromElements (
     <Route path='/' element={<App />}>
