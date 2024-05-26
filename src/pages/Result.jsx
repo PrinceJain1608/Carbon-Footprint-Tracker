@@ -7,7 +7,7 @@ function Result() {
     const location = useLocation()
     const { carbonFootprint, requiredToucanTokens, cost } = location.state || { carbonFootprint : null, requiredToucanTokens: null, cost: null }
 
-    return (
+    return (                
         <div>
             <main className="bg-white block">
 
@@ -79,14 +79,16 @@ function Result() {
                                     { id : 0, value : carbonFootprint, label:'Your carbon footprint', color : 'lightgreen'},
                                     { id : 1, value : 7000, label : "Average person's carbon footprint", color : 'green' },
                                 ] ,
-                                innerRadius: 120,
-                                outerRadius: 150,
-                                paddingAngle: 5,
-                                cornerRadius: 5,
+                                // innerRadius: 120,
+                                // outerRadius: 150,
+                                // paddingAngle: 5,
+                                // cornerRadius: 5,
+                                cx:700,
+                                cy:150,
                 
                             }
                         ]}
-                        width={1000}
+                        width={1200}
                         height={300}
                     />
 

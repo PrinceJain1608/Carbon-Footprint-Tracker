@@ -80,14 +80,16 @@ function Result() {
                                     { id : 0, value : carbonFootprintCalculated, label:'Your carbon footprint', color : 'lightgreen'},
                                     { id : 1, value : 48000, label : 'Average world footprint', color : 'green' },
                                 ] ,
-                                innerRadius: 120,
-                                outerRadius: 150,
-                                paddingAngle: 5,
-                                cornerRadius: 5,
+                                // innerRadius: 120,
+                                // outerRadius: 150,
+                                // paddingAngle: 5,
+                                // cornerRadius: 5,
+                                cx:700,
+                                cy:150,
                 
                             }
                         ]}
-                        width={1000}
+                        width={1200}
                         height={300}
                     />
 
